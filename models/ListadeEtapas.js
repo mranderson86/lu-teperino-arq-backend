@@ -18,7 +18,7 @@ const EtapasSchema = new Schema(
     projeto_id: {
       type: Schema.Types.ObjectId,
       ref: 'Projeto',
-      required: true,
+      required: false,
     },
   }
 )
